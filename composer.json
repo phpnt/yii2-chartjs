@@ -1,0 +1,29 @@
+{
+    "name": "phpnt/yii2-chartjs",
+    "description": "Yii2 chartjs",
+    "keywords": ["yii2", "phpnt", "chartjs", "yii2 chartjs", "chart.js", "chart js"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/phpnt/yii2-chartjs"
+    },
+    "authors": [
+        {
+            "name": "phpNT",
+            "email": "phpnt@phpnt.com",
+            "homepage": "http://phpnt.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/Chart.js": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpnt\\chartJS\\": ""
+        }
+    }
+}
