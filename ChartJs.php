@@ -17,7 +17,8 @@ class ChartJs extends Widget
     const TYPE_BAR              = 'bar';
     const TYPE_RADAR            = 'radar';
     const TYPE_POLAR_AREA       = 'polarArea';
-    const TYPE_PIE_DOUGHNUT     = 'pie';
+    const TYPE_PIE              = 'pie';
+    const TYPE_DOUGHNUT         = 'doughnut';
     const TYPE_BUBBLE           = 'bubble';
 
     public $type;
