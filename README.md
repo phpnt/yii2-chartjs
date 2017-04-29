@@ -254,7 +254,12 @@ echo ChartJs::widget([
     'options'   => []
 ]);
 echo ChartJs::widget([
-    'type'  => ChartJs::TYPE_PIE_DOUGHNUT,
+    'type'  => ChartJs::TYPE_PIE,
+    'data'  => $dataPie,
+    'options'   => []
+]);
+echo ChartJs::widget([
+    'type'  => ChartJs::TYPE_DOUGHNUT,
     'data'  => $dataPie,
     'options'   => []
 ]);
